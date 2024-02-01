@@ -9,7 +9,7 @@ function MyButton() {
 export default function MyApp() {
   return (
     <div>
-      <h1>♠️BlackJack ♠️</h1>
+      <h1>♠️ BlackJack ♠️</h1>
       <MyButton />
     </div>
   );
