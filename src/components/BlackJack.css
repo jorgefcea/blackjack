@@ -1,0 +1,110 @@
+.blackjack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.filas {
+  display: flex;
+  justify-content: center;
+}
+
+.fila {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.crupier, .jugador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.cartas {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.cartas img {
+  width: 150px;
+  margin: 0 3px;
+}
+
+.acciones {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.acciones button {
+  margin: 5px;
+}
+
+.border-image-container {
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 70%;
+  height: auto; 
+  margin: auto;
+  margin-top: 40px;
+  overflow: hidden;
+  background-image: url(../images/borde.jpg);
+}
+
+.table-container {
+  background-image: url('../images/cesped.jpeg'); 
+  background-repeat: repeat;
+  background-size: cover;
+  border: 10px solid transparent;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .blackjack {
+    margin-top: 20px;
+  }
+
+  .fila {
+    flex-direction: column;
+    align-items: flex-start; 
+    margin: 5px 0; 
+  }
+
+  .cartas img {
+    width: 80px;
+    margin: 0 2px; 
+  }
+
+  .acciones {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .border-image-container {
+    max-width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .table-container {
+    padding: 5px; 
+  }
+
+  .crupier, .jugador {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+}

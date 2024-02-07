@@ -10,7 +10,7 @@
 body {
   font-family: poker;
   padding: 20px;
-  background-image: url(../public/images/table.jpg);
+  background-image: url(images/table.jpg);
   background-repeat: no-repeat; 
   background-size: cover;
   background-attachment: fixed;
@@ -20,4 +20,10 @@ body {
 h1 {
   text-align: center;
   font-size: 80px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px; /* Ajusta el tamaño del h1 para dispositivos pequeños */
+  }
 }

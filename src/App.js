@@ -1,16 +1,14 @@
-function MyButton() {
-  return (
-    <button>
-      Soy un botón
-    </button>
-  );
-}
+import React from 'react';
+import './styles.css';
+import BlackJack from './components/BlackJack';
 
-export default function MyApp() {
+function App() {
   return (
-    <div>
+    <div className="App">
       <h1>♠️ BlackJack ♠️</h1>
-      <MyButton />
+      <BlackJack />
     </div>
   );
 }
+
+export default App;
