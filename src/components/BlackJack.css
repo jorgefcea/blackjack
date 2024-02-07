@@ -50,7 +50,7 @@ h2 {
 }
 
 .border-image-container {
-  border-radius: 10px;
+  border-radius: 220px;
   padding: 20px;
   max-width: 70%;
   height: auto; 
@@ -65,7 +65,7 @@ h2 {
   background-repeat: repeat;
   background-size: cover;
   border: 10px solid transparent;
-  border-radius: 10px;
+  border-radius: 200px;
   padding: 20px;
 }
 
@@ -94,10 +94,12 @@ h2 {
     max-width: 90%;
     margin-top: 20px;
     padding: 10px;
+    border-radius: 110px;
   }
 
   .table-container {
-    padding: 5px; 
+    padding: 5px;
+    border-radius: 100px;
   }
 
   .crupier, .jugador {
